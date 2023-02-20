@@ -12,11 +12,7 @@ Tech Stack:
   - Excel
   - XML
   
-Tech Stack Summary: Python/XML (pandas, ElementTree) and Excel/Tableau
-  - Apple Watch Visualization project - exported the data in XML format from my apple watch and used Python, pandas and ElementTree to clean the data, extract information and create a useful excel table.
-  - Used the excel table in Tableau to create visuals to understand the data exported from my apple watch
-
-
+# Tech Stack Summary: Python/XML (pandas, ElementTree) and Excel/Tableau
 
 For Python, I used the following libraries, Pandas and ElementTree. Apple produces exported data in the form of an XML via the Apple Watch. I used the Python library ElementTree, to access the root of the XML file, in order to then parse the file into readable structures for Python. 
 
