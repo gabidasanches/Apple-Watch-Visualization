@@ -19,8 +19,9 @@ For Python, I used the following libraries, Pandas and ElementTree. Apple produc
 ![Screenshot 2023-02-20 at 5 27 50 PM](https://user-images.githubusercontent.com/123784158/220207305-798966e9-b474-4769-8eac-20b55391e7b3.png)
 
 
+Once the XML file was readable, I then stored the output in a Pandas dataframe, where I was able to to get a snapshot of the data, which helped me filter and extract the data. Once extracted, I used Pandas to store the final output of the modified health data into a csv file (.to_csv()).
 
-Once the XML file was readable, I then stored the output in a Pandas dataframe, where I was able to to get a readbale snapshot of the data, which helped me filter and extract my data. I then took this and extracted data, and used Pandas (.to_csv()) to create a CSV file of the output data I needed for Tableau
+![Screenshot 2023-02-20 at 5 36 51 PM](https://user-images.githubusercontent.com/123784158/220208116-1ff2e0d9-aa64-48da-9024-c81e313f29c9.png)
 
 In Tableau I extracted the data from the table and I filtered the information to create different visuals. 
 
