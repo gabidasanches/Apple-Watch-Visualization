@@ -1,12 +1,22 @@
 # Apple-Watch-Visualization
 
-Python (pandas, ElementTree) and Tableau
+After using my Apple Watch for 3 years, I was interested in seeing how my activity has changed since covid-19 began. Now enrolled in my MS analytics program, I have the tools to now investigate how my health has changed since covid started.
+
+Data Process: 
+Apple allows health data to be exported from the device, however, this data is packaged into an XML file, not readable to people. I used Python, specifically the ElementTree library in order to parse this XML data. Once readable to some degree, I then took this converted data and ran it through a Pandas dataframe to get more insight into how the data was described and to make it easier to view with the goal of storing the final output in the form of an csv file. With the data in csv format, it was easier to read and understand, which allowed me to decide what columns I needed to use to extrapolate data from my Apple Watch. I then took the needed data, and cloned it to an xlsx file to isolate any changes, which I then uploaded to a Tableau view to visualize my health data!
+
+
+Tech Stack:
+  - Python
+  - Tableuea
+  - Excel
+  - XML
+  
+Tech Stack Summary: Python/XML (pandas, ElementTree) and Excel/Tableau
   - Apple Watch Visualization project - exported the data in XML format from my apple watch and used Python, pandas and ElementTree to clean the data, extract information and create a useful excel table.
   - Used the excel table in Tableau to create visuals to understand the data exported from my apple watch
 
-TechStacK
-  - Python
-  - Tableuea 
+
 
 For Python, I used the following libraries, Pandas and ElementTree. Apple produces exported data in the form of an XML via the Apple Watch. I used the Python library ElementTree, to access the root of the XML file, in order to then parse the file into readable structures for Ptyhon. 
 
