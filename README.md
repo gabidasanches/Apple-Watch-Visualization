@@ -20,7 +20,7 @@ Tech Stack Summary: Python/XML (pandas, ElementTree) and Excel/Tableau
 
 For Python, I used the following libraries, Pandas and ElementTree. Apple produces exported data in the form of an XML via the Apple Watch. I used the Python library ElementTree, to access the root of the XML file, in order to then parse the file into readable structures for Python. 
 
-![Screenshot 2023-02-20 at 5 26 38 PM](https://user-images.githubusercontent.com/123784158/220207205-1c34aab1-8e0a-4255-8d52-dca5ed84f38a.png)
+![Screenshot 2023-02-20 at 5 27 50 PM](https://user-images.githubusercontent.com/123784158/220207305-798966e9-b474-4769-8eac-20b55391e7b3.png)
 
 
 
