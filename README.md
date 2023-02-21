@@ -24,7 +24,7 @@ Once the XML file was readable, I then stored the output in a Pandas dataframe, 
 ![Screenshot 2023-02-20 at 5 36 51 PM](https://user-images.githubusercontent.com/123784158/220208116-1ff2e0d9-aa64-48da-9024-c81e313f29c9.png)
 
 In Tableau I extracted the data from the table and filtered the information to create different visuals. 
-https://public.tableau.com/app/profile/gabriele.sanches/viz/applewatchdata/Sheet2
+https://public.tableau.com/app/profile/gabriele.sanches/viz/AppleWatchDataVisualization/Sheet3#1
 
 Visuals Created: 
 - Exercise Time, Stand Time and Step Count by month in 2021 and 2022
