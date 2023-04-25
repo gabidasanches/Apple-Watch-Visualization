@@ -1,6 +1,6 @@
 # Apple-Watch-Visualization
 
-After using my Apple Watch for 3 years, I was interested in seeing how my activity has changed throught the years. Now enrolled in my MS in Business analytics program, I have the tools to now investigate how my health and activity levels have changed.
+After using my Apple Watch for 3 years, I was interested in seeing how my activity has changed through the years. Now enrolled in my MS in Business analytics program, I have the tools to now investigate how my health and activity levels have changed.
 
 Data Process: 
 Apple allows health data to be exported from the device, however, this data is packaged into an XML file, not readable to people. I used Python, specifically the ElementTree library in order to parse this XML data. Once readable to some degree, I then took this converted data and ran it through a Pandas dataframe to get more insight into how the data was described and to make it easier to view with the goal of storing the final output in the form of an csv file. With the data in csv format, it was easier to read and understand, which allowed me to decide what columns I needed to use to extrapolate data from my Apple Watch. I then took the needed data, and cloned it to an xlsx file to isolate any changes, which I then uploaded to a Tableau view to visualize my health data!
@@ -8,7 +8,7 @@ Apple allows health data to be exported from the device, however, this data is p
 
 Tech Stack:
   - Python
-  - Tableuea
+  - Tableau
   - Excel
   - XML
   
